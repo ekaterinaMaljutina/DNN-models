@@ -1,0 +1,14 @@
+net: "/home/maljutina_e/Project/deploy_MVFD.prototxt"
+test_iter: 1000
+test_interval: 1000000
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10000
+display: 20
+max_iter: 10000000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 200000
+solver_mode: GPU
+snapshot_prefix: "/home/maljutina_e/Project/models/MVFD_200x800"
